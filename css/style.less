@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+li {
+    list-style: none;
+}
+//wrapper
+#wrapper {
+    width: 90%;
+    max-width: 960px;
+    border: 2px solid gray;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px gray;
+    #page-banner {
+        background-color:rgb(216, 213, 213);
+        padding: 30px;
+    }
+    h1 {
+        text-align: center;
+        margin: 10px;
+    }
+    p {
+        text-align: center;
+    }
+    form {
+        text-align: center;
+        input {
+        margin-top: 10px;
+        padding: 6px;
+        width: 30%;
+        }
+    }
+}
+//----------------
+#book-list {
+    margin: 30px;
+        li {
+            margin-top: 50px;
+            font-size: 18px;
+            padding: 20px;
+            border-left: 5px solid lightgray;
+            margin: 20px 8px;
+            .delete {
+                float: right;
+                background-color: #2f223a;
+                padding: 8px;
+                color: white;
+                border-radius: 5px;
+                &:hover {
+                    background-color: gray;
+                    cursor: pointer;
+                }
+            }
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+}
+#add-book{
+    margin: 50px 180px;
+    input{
+        margin: 20px;
+        padding: 10px;
+    }
+    button{
+        border: 1px solid #2f223a;
+        border-radius: 4px;
+        background: #2f223a;
+        padding: 10px 20px;
+        color: white;
+        font-size: 18px;
+    }
+}
